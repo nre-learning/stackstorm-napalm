@@ -1,0 +1,27 @@
+---
+class_name: "InterfaceSensor"
+entry_point: "interface_sensor.py"
+description: "Sensor that uses NAPALM to detect interface up/down events"
+enabled: true  # disabled by default; this is for demo purposes only.
+
+trigger_types:
+
+- name: "InterfaceDown"
+  description: "Trigger which occurs when an interface goes down"
+  payload_schema:
+    type: "object"
+    properties:
+      device:
+        type: "string"
+      interface:
+        type: "string"
+
+- name: "InterfaceDown"
+  description: "Trigger which occurs when an interface comes up"
+  payload_schema:
+    type: "object"
+    properties:
+      device:
+        type: "string"
+      interface:
+        type: "string"
