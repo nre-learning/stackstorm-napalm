@@ -78,6 +78,9 @@ class InterfaceSensor(PollingSensor):
 
         for iface_name, iface_details in last_interfaces.items():
 
+            if iface_name[-2:] == ".0":
+                continue
+
             if iface_details['is_up'] and not this_interfaces[iface_name]['is_up']:
                 ifs_down.append(iface_name)
 

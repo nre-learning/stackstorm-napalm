@@ -16,7 +16,7 @@ trigger_types:
       interface:
         type: "string"
 
-- name: "InterfaceDown"
+- name: "InterfaceUp"
   description: "Trigger which occurs when an interface comes up"
   payload_schema:
     type: "object"
