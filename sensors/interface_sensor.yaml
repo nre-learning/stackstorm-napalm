@@ -2,7 +2,7 @@
 class_name: "InterfaceSensor"
 entry_point: "interface_sensor.py"
 description: "Sensor that uses NAPALM to detect interface up/down events"
-enabled: true  # disabled by default; this is for demo purposes only.
+enabled: true
 
 trigger_types:
 
