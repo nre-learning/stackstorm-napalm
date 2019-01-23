@@ -1,3 +1,4 @@
+ncclient==0.6.0
 napalm
 json2table
 GitPython
