@@ -1,5 +1,17 @@
 # Change Log
 
+## 0.4.0
+
+- Driver reunification - switched to just "napalm" import, removed device-specific and napalm-base
+
+## 0.3.0
+
+- Removed `napalm-ibm` as it is no longer maintained, and pins to an older version of paramiko that breaks other drivers.
+
+## 0.2.16
+
+- Added "nxos_ssh" to supported Napalm drivers for legacy nx-os systems without NX-API support. (inline transfer only)
+
 ## 0.2.15
 
 - Version bump to fix tagging issues, no code changes
