@@ -1,4 +1,7 @@
-ncclient==0.6.0
 napalm
 json2table
 GitPython
+
+# https://github.com/StackStorm-Exchange/stackstorm-napalm/issues/53
+junos-eznc==2.2.0
+ncclient==0.6.0
