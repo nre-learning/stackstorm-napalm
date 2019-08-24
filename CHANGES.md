@@ -1,5 +1,9 @@
 # Change Log
 
+## In development
+
+- Added 'netmiko>=2.4.1' entry to requirements.txt.  See https://github.com/ktbyers/netmiko/issues/1304
+
 ## 0.4.0
 
 - Driver reunification - switched to just "napalm" import, removed device-specific and napalm-base
