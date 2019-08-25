@@ -1,3 +1,5 @@
+# https://github.com/ktbyers/netmiko/issues/1304
+netmiko>=2.4.1
 napalm
 json2table
 GitPython
